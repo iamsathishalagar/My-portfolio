@@ -1,0 +1,46 @@
+.mainsheet{
+    display: flex;
+    background-color: black;
+    padding-bottom: 105px;
+
+}
+
+.web{
+    background-color:blueviolet;
+    text-align: center;
+    height: 330px;
+    width: 190px;
+    margin-left: 140px;
+    margin-top: 120px;
+    border-radius: 30px;
+    box-shadow: greenyellow 0px 0px 90px;
+    transition-duration: 8s;
+}
+
+
+.Data{
+    background-color: lightseagreen;
+    margin-top: 120px;
+    margin-left: 190px;
+    margin-right: 200px;
+    height: 330px;
+    width: 190px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: greenyellow 0px 0px 90px;
+    transition-duration: 8s;
+}
+
+.UI{
+    background-color: lime;
+    height: 330px;
+    width: 190px;
+    margin-top: 120px;
+    margin-right: 40px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 30px;
+    box-shadow: greenyellow 0px 0px 90px;
+    transition-duration: 8s;
+
+}
