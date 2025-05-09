@@ -1,25 +1,40 @@
 .mainsheet{
     display: flex;
-    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Ftech-background-t29vt7psb6i6sgcy.jpg&f=1&nofb=1&ipt=ab1a8ac229fc99457d3c695d4616ae28364d359eb3b1b489440f52a98b5f82e4");
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.gqXgiQ0t9LywB3v9C2a4EQHaEK%26cb%3Diwc1%26pid%3DApi&f=1&ipt=567c9cf422220b3b95fc8e3255a334ad7f6d9f28bf17e4fd464fd668a57dec85&ipo=images");
     padding-bottom: 105px;
-
+    background-position: center;
+    background-size: cover;
+    animation: reverse fade 1s;
 }
 
+@keyframes fade { /* Fade in animation */
+      from {
+        opacity: 1;
+        transform: scale(1.0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(0.8);
+      }
+    }
 .web{
-    background-color:blueviolet;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.pXXS2oC8_UoXCrkJ_rkaUwHaHa%26pid%3DApi&f=1&ipt=3dd0ae2ac4601da5a644c2d96e9109f7e074f9a636544fd9f772d67356c78a44&ipo=images");
     text-align: center;
     height: 330px;
     width: 190px;
     margin-left: 140px;
     margin-top: 120px;
     border-radius: 30px;
-    box-shadow: greenyellow 0px 0px 90px;
     transition-duration: 8s;
+    background-position: center;
 }
 
 
 .Data{
-    background-color: lightseagreen;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.QQw9rDU-YsKC_uWeA5PEmwHaFs%26pid%3DApi&f=1&ipt=a4e62acd4b99b6b667ef4afe1b3346b0312f5cfe815f416445318150e29f96b5&ipo=images");
     margin-top: 120px;
     margin-left: 190px;
     margin-right: 200px;
@@ -27,12 +42,13 @@
     width: 190px;
     text-align: center;
     border-radius: 30px;
-    box-shadow: greenyellow 0px 0px 90px;
     transition-duration: 8s;
+    background-position: center;
 }
 
 .UI{
-    background-color: lime;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A916%2F1*z2BaY_MTgmcjgLfNyGQJ4g.png&f=1&nofb=1&ipt=603248512a198c7bbaf1828da4b167e9a81007a5f3d26dadac8d38e207040d17");
     height: 330px;
     width: 190px;
     margin-top: 120px;
@@ -40,7 +56,26 @@
     text-align: center;
     margin-left: 40px;
     border-radius: 30px;
-    box-shadow: greenyellow 0px 0px 90px;
     transition-duration: 8s;
+    background-position: center;
+    background-size: cover;
+}
 
+.UI:hover{
+    box-shadow: blue 0px 0px 90px;
+    transition: 2s;
+}
+
+.Data:hover{
+    box-shadow: blue 0px 0px 90px;
+    transition: 2s;
+}
+
+.web:hover{
+    box-shadow: blue 0px 0px 90px;
+    transition: 2s;
+}
+.mainsheet:hover{
+    box-shadow: red 0px 0px 90px;
+    transition: 2s;
 }
