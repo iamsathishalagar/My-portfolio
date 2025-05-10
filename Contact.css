@@ -1,0 +1,70 @@
+.main{
+   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.iJMEIhfbxadwPpf9d4YZUwHaEA%26pid%3DApi&f=1&ipt=7b8fbbb1e1c13d7d46363e7d1f469c5c3c7d0f0cef799b73fcff20f22ad28ca6&ipo=images");
+   color: white;
+   background-size: cover;
+   padding-bottom: 174px;
+   animation: reverse fade 1s;
+}
+
+@keyframes fade { /* Fade in animation */
+      from {
+        opacity: 1;
+        transform: scale(1.0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(0.8);
+      }
+    }
+
+
+.main h2{
+    margin-left: 43%;
+    padding-top: 4%;
+    
+}
+
+.main h4{
+    margin-left: 51%;
+    margin-top: 50px;
+}
+
+.main p{
+    margin-left: 45%;
+    font-size:x-large ;   
+}
+
+.contact h4{
+    color: white;
+    margin-top: -160px;
+    margin-left: 51%;
+}
+
+.contact p{
+   
+    color: white;
+    margin-left: 49%;
+    letter-spacing: 5px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
+
+.footer h3{
+    text-align: right;
+    margin-bottom:-20px;
+}
+
+.sheet:hover{
+    box-shadow:purple 0px 0px 90px;
+}
